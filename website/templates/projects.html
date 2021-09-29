@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Yuan Hu - Projects {% endblock %}
+{% block meta_description %}This is Yuan hu's Projects.{% endblock %}
+{% block content %}
+	      <div class="collapse navbar-collapse" id="ftco-navbar">
+	        <ul class="navbar-nav ml-auto ">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="projects.html" class="nav-link">Projects</a></li>
+	          <li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+        
+	    </div>
+	  </nav>
+
+
+    <section class="home-slider owl-carousel">
+      <div class="slider-item bread-item" style="background-image: url('{% static 'website/images/bg_projects.png' %}');" >
+        <div class="overlay"></div>
+        <div class="container" data-scrollax-parent="true">
+          <div class="row slider-text align-items-center">
+            <div class="row-md-15 col-md-7 col-sm-12 ftco-animate mb-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row">
+							<div class="col-md-20 ftco-animate">
+		            <div class="blog-entry">
+		              <a href="blog-single.html" class="block-20" style="background-image: url('{% static 'website/images/Paper1.png' %}');">
+		              </a>
+		              <div class="text d-flex py-4">
+		                <div class="meta mb-3">
+		                  <div><a href="#">2019</a></div>
+		                </div>
+		                <div class="desc pl-sm-3 pl-md-5">
+			                <h3 class="heading"><a href="#">Crypto-asset: Model price dynamics, portfolio optimization, and option evaluation</a></h3>
+			                <p>Abstract: balala</p>
+			                <p><a href="Projects/crypto_asset.html" class="btn btn-primary btn-outline-primary">Read more</a></p>
+			              </div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-12 ftco-animate">
+		            <div class="blog-entry" data-aos-delay="100">
+		              <a href="blog-single.html" class="block-20" style="background-image: url('{% static 'website/images/Paper2.png' %}');">
+		              </a>
+		              <div class="text d-flex py-4">
+		                <div class="meta mb-3">
+		                  <div><a href="#">2020</a></div>
+		                </div>
+		                <div class="desc pl-sm-3 pl-md-5">
+			                <h3 class="heading"><a href="#">Early-warning System on U.S. ETFs</a></h3>
+			                <p>Abstract: lababa</p>
+			                <p><a href="Projects/ETFs.html" class="btn btn-primary btn-outline-primary">Read more</a></p>
+			              </div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-12 ftco-animate">
+		            <div class="blog-entry" data-aos-delay="200">
+		              <a href="blog-single.html" class="block-20" style="background-image: url('{% static 'website/images/Paper3.png' %}');">
+		              </a>
+		              <div class="text d-flex py-4">
+		                <div class="meta mb-3">
+		                  <div><a href="#">2020</a></div>
+		                </div>
+		                <div class="desc pl-sm-3 pl-md-5">
+			                <h3 class="heading"><a href="#">Performance Attribution on DJI 30</a></h3>
+			                <p>Abstract: waibibabu</p>
+			                <p><a href="Projects/DJI30.html" class="btn btn-primary btn-outline-primary">Read more</a></p>
+			              </div>
+		              </div>
+		            </div>
+		          </div>        
+						</div>						
+					</div> <!-- END: col-md-8 -->
+					<div class="col-md-4 sidebar ftco-animate">
+
+            <div class="sidebar-box ftco-animate">
+              <div class="categories">                
+                <li><a href="https://scholar.google.com/citations?user=Qieab5EAAAAJ&hl=en" target="_blank" style = " font-size: 25px ">Google Scholar</a></li>
+                <li><a href="https://www.researchgate.net/profile/Yuan-Hu-4" target="_blank" style = " font-size: 25px ">Research Gate</a></li>
+                <li><a href="https://www.linkedin.com/in/yuan-hu-23a4aa1b7/" target="_blank" style = " font-size: 25px ">Linked In</a></li>
+              </div>
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+              <h3>List of Projects</h3>
+              <div class="block-21 mb-2 d-flex">
+                <div class="text">
+                  <a style = " color: darkgray; font-size: 18px ">Crypto-assets</a>
+                </div>
+              </div>
+              <div class="block-21 mb-2 d-flex">
+                <div class="text">
+                  <a style = " color: darkgray; font-size: 18px ">ETF</a>
+                </div>
+              </div>
+              <div class="block-21 mb-2 d-flex">                
+                <div class="text">
+                  <a style = " color: darkgray; font-size: 18px ">DJI 30</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+				</div>
+			</div>
+		</section>
+
+    
+{% endblock %}
